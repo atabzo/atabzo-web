@@ -1,8 +1,15 @@
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
+
+html {
+    visibility: hidden;
+}
+
 
 @font-face {
   font-family: 'Imbue';
@@ -11,8 +18,46 @@
   font-style: normal;
 }
 
-body {
-    font-family: 'Imbue';
-    background-color: #2600ff;
-    color: #7bff00;
+
+@font-face {
+  font-family: 'InstrumentSerif';
+  src: url('./fonts/InstrumentSerif-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
 }
+
+
+@font-face {
+  font-family: 'things';
+  src: url('./fonts/things.otf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
+@font-face {
+  font-family: 'PlayfairDisplay';
+  src: url('./fonts/PlayfairDisplay.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
+@font-face {
+  font-family: 'WindsorElongated';
+  src: url('./fonts/WindsorElongated.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
+body {
+    font-family: 'InstrumentSerif', serif;
+    background-color: #d2f1bd;
+    color: #068306;
+    padding: 20px 20px;
+    
+}    
