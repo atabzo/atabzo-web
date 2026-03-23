@@ -9,3 +9,4 @@ gsap.from("h1, body", {
   
   ease: "elastic.out(1, 0.5)" 
 });
+

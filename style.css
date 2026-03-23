@@ -5,11 +5,9 @@
     box-sizing: border-box;
 }
 
-
 html {
     visibility: hidden;
 }
-
 
 @font-face {
   font-family: 'Imbue';
@@ -18,14 +16,12 @@ html {
   font-style: normal;
 }
 
-
 @font-face {
   font-family: 'InstrumentSerif';
   src: url('./fonts/InstrumentSerif-Regular.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
-
 
 @font-face {
   font-family: 'things';
@@ -34,16 +30,12 @@ html {
   font-style: normal;
 }
 
-
-
 @font-face {
   font-family: 'PlayfairDisplay';
   src: url('./fonts/PlayfairDisplay.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
-
-
 
 @font-face {
   font-family: 'WindsorElongated';
@@ -52,12 +44,17 @@ html {
   font-style: normal;
 }
 
-
-
 body {
     font-family: 'InstrumentSerif', serif;
     background-color: #d2f1bd;
     color: #068306;
     padding: 20px 20px;
-    
+
 }    
+
+.overglade {
+  max-width: 50%;       /* Ensures it never gets wider than the screen */
+  height: auto;          /* Keeps the proportions correct */
+  margin: 20px auto;     /* Centers the image horizontally */
+  transition: transform 0.3s ease;
+}
