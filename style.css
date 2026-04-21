@@ -34,7 +34,7 @@ html {
 @font-face {
   font-family: 'WindsorElongated';
   src: url('./fonts/WindsorElongated.ttf') format('truetype');
-  font-weight: 100px;
+  font-weight: normal;
   font-style: normal;
 }
 
@@ -64,3 +64,9 @@ body {
     .fancy-link:hover {
       background-size: 100% 2px;
     }
+
+li:hover {
+    text-decoration: underline;
+    text-decoration-style: wavy;
+    text-decoration-thickness: 2px;
+  }

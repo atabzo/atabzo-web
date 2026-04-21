@@ -29,13 +29,8 @@ function playAnimation(shape) {
   
 }
 
-/* --------------------------------
-
-The other stuff...
-
-------------------------------------*/
 let flair = gsap.utils.toArray(".flair");
-let gap = 100; // if you're nosy though, this number spaces the 'lil shapes out
+let gap = 50; // if you're nosy though, this number spaces the 'lil shapes out
 let index = 0;
 let wrapper = gsap.utils.wrap(0, flair.length);
 gsap.defaults({duration: 1})
@@ -102,3 +97,4 @@ function animateImage() {
 
   index++;
 }
+
