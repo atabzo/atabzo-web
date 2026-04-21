@@ -49,21 +49,8 @@ body {
 .flair {
   position: fixed;
   opacity: 0;
-  width: 50px;
+  width: 23px;
 }
-
-  .fancy-link {
-      text-decoration: none;
-      background-image: linear-gradient(hotpink, hotpink);
-      background-size: 0% 2px;
-      background-position: 0 100%;
-      background-repeat: no-repeat;
-      transition: background-size 0.3s ease;
-    }
-
-    .fancy-link:hover {
-      background-size: 100% 2px;
-    }
 
 li:hover {
     text-decoration: underline;
@@ -87,7 +74,18 @@ a:hover {
   }
 
 
-h1 {
+h1.bhanu {
+    color: rgb(0, 0, 0);
+}
 
+h1 {
     color:rgb(39, 108, 2)
+}
+
+
+.bhanu:hover {
+    text-decoration: underline;
+    text-decoration-style: wavy;
+    text-decoration-color: rgb(11, 107, 23);
+    text-decoration-thickness: 5px;
 }
