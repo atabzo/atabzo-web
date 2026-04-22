@@ -65,6 +65,13 @@ a {
     color: rgb(56, 22, 51);
   }
 
+ 
+.about {
+  max-width: 600px;
+  margin: 200px auto 0 auto;
+  padding: 0 20px;
+  font-size: 20px;
+}
 
 a:hover {
     text-decoration: underline;
@@ -92,12 +99,16 @@ a:hover {
 }
 
 @media (max-width: 768px) {
-  div {
-    margin: 80px auto 0 auto; /* less top margin on mobile */
-    font-size: 16px; /* smaller text */
-    padding: 0 16px;
-  }
   .background {
-    width: 300px; /* smaller on mobile */
+    display: none;
   }
+}
+.cloud-block {
+  position: relative; /* parent anchor */
+}
+
+
+.cloud-img {
+  display: block;
+  width: 400px;
 }
